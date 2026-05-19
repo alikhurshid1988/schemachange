@@ -1,5 +1,9 @@
 config-version: 1
 root-folder: .
 
+change-history-table: METADATA_PROD.SCHEMACHANGE.CHANGE_HISTORY
+
+vars:
+  env: PROD
 vars:
   env: PROD
