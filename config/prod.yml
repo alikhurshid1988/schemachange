@@ -1,0 +1,8 @@
+config-version: 1
+root-folder: .
+
+vars:
+  env: PROD
+  rl_database: EF_PROD_RL
+  sl_database: EF_PROD_SL
+  schema_name: PUBLIC
