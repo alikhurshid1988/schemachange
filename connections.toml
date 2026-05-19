@@ -1,4 +1,13 @@
-[trial]
+[UAT]
+account = "QY19851.canada-central.azure"
+user = "ADMIN"
+password = "{{ env_var('SNOWFLAKE_PASSWORD') }}"
+role = "ACCOUNTADMIN"
+warehouse = "COMPUTE_WH"
+database = "EF_PROD_RL"
+schema = "PUBLIC"
+
+[PROD]
 account = "QY19851.canada-central.azure"
 user = "ADMIN"
 password = "{{ env_var('SNOWFLAKE_PASSWORD') }}"
