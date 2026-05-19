@@ -1,0 +1,8 @@
+config-version: 1
+root-folder: .
+
+vars:
+  env: UAT
+  rl_database: EF_UAT_RL
+  sl_database: EF_UAT_SL
+  schema_name: PUBLIC
