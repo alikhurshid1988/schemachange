@@ -27,7 +27,7 @@ jobs:
             --config-folder config \
             --config-file-name uat.yml \
             --schemachange-connections-file-path connections.toml \
-            --connection-name uat
+            --connection-name UAT
       
 
         
