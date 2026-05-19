@@ -1,6 +1,8 @@
 config-version: 1
 root-folder: .
 
+change-history-table: METADATA_UAT.SCHEMACHANGE.CHANGE_HISTORY
+
 vars:
   env: UAT
 
